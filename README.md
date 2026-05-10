@@ -14,7 +14,6 @@
 - 🐧 Running my own **Linux / KVM VPS** for development and experimentation
 - 🛠️ Interested in **systems architecture**, **infrastructure**, and **security**
 - 📈 Exploring **algorithmic trading** and quantitative tooling on the side
-- 🌍 Based in **Istanbul, Turkey** — working remotely
 - 💬 Ask me about **C#**, **WPF**, **ASP.NET Core**, or **Linux/VPS administration**
 
 ---
@@ -30,8 +29,8 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=hamitsarmis&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hamitsarmis&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+  <img height="180em" src="https://my-github-stats-flame.vercel.app/api?username=hamitsarmis&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true" />
+  <img height="180em" src="https://my-github-stats-flame.vercel.app/api/top-langs/?username=hamitsarmis&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 </p>
 
 <p align="center">
