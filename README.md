@@ -1,88 +1,29 @@
-<h1 align="center">Hi there, I'm Hamit 👋</h1>
-<h3 align="center">Software Engineer · .NET / C# · Systems & Infra</h3>
+# Hamit Sarmış
 
-<p align="center">
-  <a href="https://github.com/hamitsarmis">
-    <img src="https://komarev.com/ghpvc/?username=hamitsarmis&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
-  </a>
-  <a href="https://github.com/hamitsarmis?tab=followers">
-    <img src="https://img.shields.io/github/followers/hamitsarmis?label=Followers&style=social" alt="followers" />
-  </a>
-</p>
+Senior .NET engineer (15 years) who builds agentic systems — the backend, the pipelines and the LLM layer on top of them.
 
----
+- 11 years in core banking (ESB, rule engines, WCF → ASP.NET Core migration), then 4 years of real-time sports-tech (WPF, video pipelines, now backend for a desktop-to-web migration) for a Copenhagen sports-tech company.
+- Since 2026: agent systems in Python and C# — a structured-output pipeline ([telegram_listener](https://github.com/hamitsarmis/telegram_listener)), an MCP server ([webhook-dotnet](https://github.com/hamitsarmis/webhook-dotnet)), a Claude Code–orchestrated agent team ([strategy-team](https://github.com/hamitsarmis/strategy-team)). Everything below ships with its Docker setup.
+- I care about the boring parts: idempotency, outbox, confirmation gates, audit logs. An agent that can place a trade gets a dry-run default, a single-use token and a kill switch.
 
-### 🧑‍💻 About Me
+## Agentic systems
 
-- 🔭 Currently working with **.NET / C#**, **WPF**, and **ASP.NET Core**
-- 🐧 Running my own **Linux / KVM VPS** for development and experimentation
-- 🛠️ Interested in **systems architecture**, **infrastructure**, and **security**
-- 📈 Exploring **algorithmic trading** and quantitative tooling on the side
-- 💬 Ask me about **C#**, **WPF**, **ASP.NET Core**, or **Linux/VPS administration**
+| Repo | What | Stack |
+|---|---|---|
+| [telegram_listener](https://github.com/hamitsarmis/telegram_listener) | Telegram signal channel → Claude structured output → broker; Kafka spine, Redis thread memory, server-side compaction | Python, Claude API, Kafka, Redis, MetaApi |
+| [webhook-dotnet](https://github.com/hamitsarmis/webhook-dotnet) | TradingView → outbox pipeline → broker, exposed to agents through an MCP server with dry-run, confirmation tokens and an audit log | .NET 10, MCP C# SDK, Postgres, RabbitMQ |
+| [strategy-team](https://github.com/hamitsarmis/strategy-team) | Claude Code subagent team that researches, backtests and vets trading strategies against written criteria | Claude Code, Python, Docker |
 
----
+## Backend & systems
 
-### 🛠️ Tech Stack
+| Repo | What | Stack |
+|---|---|---|
+| [WCFResponder](https://github.com/hamitsarmis/WCFResponder) | Stub server speaking WCF binary SOAP (msbin1, WS-Addressing, Deflate) for testing and reverse-engineering | ASP.NET Core |
+| [concurrent-job-queue-api](https://github.com/hamitsarmis/concurrent-job-queue-api) | Multithreaded job queue behind a JWT-protected API, with a 100k-request load client | .NET 10 |
+| [dotnet-quizbot](https://github.com/hamitsarmis/dotnet-quizbot) | Telegram bot that drills senior .NET interview questions; Worker Service, EF Core on SQLite, long polling | .NET 10 |
 
-<p>
-  <a href="https://learn.microsoft.com/en-us/dotnet/csharp/"><img src="https://skillicons.dev/icons?i=cs" alt="C#" /></a>
-  <a href="https://dotnet.microsoft.com/"><img src="https://skillicons.dev/icons?i=dotnet" alt=".NET" /></a>
-  <a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=py" alt="Python" /></a>
-  <a href="https://www.typescriptlang.org/"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" /></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript" /></a>
-  <a href="https://www.gnu.org/software/bash/"><img src="https://skillicons.dev/icons?i=bash" alt="Bash" /></a>
-  <a href="https://www.linux.org/"><img src="https://skillicons.dev/icons?i=linux" alt="Linux" /></a>
-  <a href="https://www.docker.com/"><img src="https://skillicons.dev/icons?i=docker" alt="Docker" /></a>
-  <a href="https://www.nginx.com/"><img src="https://skillicons.dev/icons?i=nginx" alt="Nginx" /></a>
-  <a href="https://www.postgresql.org/"><img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" /></a>
-  <a href="https://redis.io/"><img src="https://skillicons.dev/icons?i=redis" alt="Redis" /></a>
-  <a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" alt="Git" /></a>
-  <a href="https://github.com/"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" /></a>
-  <a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" alt="VS Code" /></a>
-  <a href="https://visualstudio.microsoft.com/"><img src="https://skillicons.dev/icons?i=visualstudio" alt="Visual Studio" /></a>
-</p>
+## How I work
 
----
+Claude Code daily (VPS + tmux), a written spec before code, PRs even on solo repos.
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <a href="https://github.com/hamitsarmis">
-    <img height="180em" src="https://my-github-stats-flame.vercel.app/api?username=hamitsarmis&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true" alt="GitHub stats" />
-  </a>
-  <a href="https://github.com/hamitsarmis">
-    <img height="180em" src="https://my-github-stats-flame.vercel.app/api/top-langs/?username=hamitsarmis&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/hamitsarmis">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=hamitsarmis&theme=tokyonight&hide_border=true" alt="streak stats" />
-  </a>
-</p>
-
----
-
-### 🏆 Trophies
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=hamitsarmis&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" alt="trophies" />
-  </a>
-</p>
-
----
-
-### 🐍 Contribution Snake
-
-<p align="center">
-  <a href="https://github.com/hamitsarmis">
-    <img src="https://raw.githubusercontent.com/hamitsarmis/hamitsarmis/output/github-contribution-grid-snake.svg" alt="snake animation" />
-  </a>
-</p>
-
----
-
-<p align="center">
-  <i>"First, solve the problem. Then, write the code." — John Johnson</i>
-</p>
+[LinkedIn](https://www.linkedin.com/in/hamitsarmis)
