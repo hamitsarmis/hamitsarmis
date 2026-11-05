@@ -2,7 +2,7 @@
 
 Senior .NET engineer (15 years) who builds agentic systems — the backend, the pipelines and the LLM layer on top of them.
 
-- 11 years in core banking (ESB, rule engines, WCF → ASP.NET Core migration), then 4 years of real-time sports-tech (WPF, video pipelines, now backend for a desktop-to-web migration) for a Copenhagen sports-tech company.
+- Many years in finance (ESB, rule engines, WCF → ASP.NET Core migration), then real-time sports-tech (WPF, video pipelines, now backend for a desktop-to-web migration) for a Copenhagen sports-tech company.
 - Since 2026: agent systems in Python and C# — a structured-output pipeline ([telegram_listener](https://github.com/hamitsarmis/telegram_listener)), an MCP server ([webhook-dotnet](https://github.com/hamitsarmis/webhook-dotnet)), a Claude Code–orchestrated agent team ([strategy-team](https://github.com/hamitsarmis/strategy-team)). Everything below ships with its Docker setup.
 - I care about the boring parts: idempotency, outbox, confirmation gates, audit logs. An agent that can place a trade gets a dry-run default, a single-use token and a kill switch.
 
